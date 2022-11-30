@@ -1,4 +1,4 @@
-#### Getting started with MigratoryData Java Client API
+#### Getting started with MigratoryData Java Client API V6
 
 ##### Prerequisites
 Java Development Kit (JDK) 8+, Gradle 6+ 
