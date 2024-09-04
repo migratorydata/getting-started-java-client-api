@@ -29,4 +29,4 @@ Use the following commands to build and run your project:
 
 #### Documentation
 
-For more information about the MigratoryData Client API for Android, please refer to the official documentation available at [MigratoryData Documentation](https://migratorydata.com/docs/client-api/java/).
+For more information about the MigratoryData Client API for Java, please refer to the official documentation available at [MigratoryData Documentation](https://migratorydata.com/docs/client-api/java/).
