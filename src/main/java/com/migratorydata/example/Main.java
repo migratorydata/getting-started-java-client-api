@@ -58,7 +58,10 @@ public class Main {
         while (count++ < 10000000) {
             String content = "data - " + count;
             String closure = "id" + count;
-            client.publish(new MigratoryDataMessage(Config.subject, content.getBytes(), closure));
+            MigratoryDataMessage message = new MigratoryDataMessage(Config.subject, content.getBytes(), closure);
+//            message.setCompressed(true);
+//            message.setCompressionAlgorithm(MigratoryDataMessage.CompressionAlgorithm.ZLIB_BASE64);
+            client.publish(message);
 
             Thread.sleep(3000);
         }
